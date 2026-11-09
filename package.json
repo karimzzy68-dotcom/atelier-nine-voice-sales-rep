@@ -1,0 +1,16 @@
+{
+  "name": "atelier-nine-sales-rep",
+  "version": "1.0.0",
+  "description": "Voice AI sales rep powered by ElevenLabs",
+  "scripts": {
+    "start": "node server.mjs",
+    "setup-agent": "node scripts/setup-agent.mjs",
+    "voices": "node scripts/setup-agent.mjs voices",
+    "set-key": "node scripts/set-key.mjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "@elevenlabs/client": "^1.28.0"
+  },
+  "private": true
+}
